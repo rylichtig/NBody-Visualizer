@@ -1,0 +1,36 @@
+12/16/2014
+
+Main Idea: To create a visualization program that will take input from the Chambers99 "Mercury" code and will actually show what is happeneing.
+
+Features to include:
+	- Colors for different items
+		- Big Bodies, Small bodies, Sun, Trails, Close Encounters(?), Collisions(?)
+
+	- Needs to be able to take any amount of input and any amount of time.
+		- All the program is doing is reading in the .aep files that result in a running of the chambers code.
+
+	- Should this program run the other program? No. (At least not yet)
+
+	- 3D YES.
+		- http://www.falstad.com/vector3d/
+		- Possible future solution: 2 panes, one is top down and the other is horizontal plane.
+
+	- ?? More as they come.
+
+What to do:
+	- Get fortran working on PC so that I can run the code and get test information
+	
+	- Look up if there is a way to, given points and time step, to "smooth" out the edges of a planets path using the AU of the item at each time.
+		- There is: https://docs.oracle.com/javase/tutorial/2d/geometry/primitives.html
+		  the way to do it is to use a "Quadratic Curve Segment" - QuadCurve2D
+	
+	- Find a way to "draw" to the screen in a good manner.
+		- Follow the link from the 3D section, they have a good model and source code.
+
+	- Timesteps, how are they going to work?
+
+	- ?? More as they come.
+
+	- 
+
+
